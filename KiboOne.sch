@@ -1,4 +1,2641 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 5B899779
+P 3800 2850
+F 0 "U1" H 3800 2900 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 3800 2800 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 3800 2850 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3800 2850 50  0001 C CNN
+	1    3800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW49
+U 1 1 5B899B34
+P 6300 1400
+F 0 "SW49" H 6300 1685 50  0000 C CNN
+F 1 "V" H 6300 1594 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 6300 1600 50  0001 C CNN
+F 3 "" H 6300 1600 50  0001 C CNN
+	1    6300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW50
+U 1 1 5B899CEB
+P 6900 1400
+F 0 "SW50" H 6900 1685 50  0000 C CNN
+F 1 "C" H 6900 1594 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 6900 1600 50  0001 C CNN
+F 3 "" H 6900 1600 50  0001 C CNN
+	1    6900 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW51
+U 1 1 5B899D09
+P 7500 1400
+F 0 "SW51" H 7500 1685 50  0000 C CNN
+F 1 "X" H 7500 1594 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 7500 1600 50  0001 C CNN
+F 3 "" H 7500 1600 50  0001 C CNN
+	1    7500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW52
+U 1 1 5B899D21
+P 8100 1400
+F 0 "SW52" H 8100 1685 50  0000 C CNN
+F 1 "Z" H 8100 1594 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 8100 1600 50  0001 C CNN
+F 3 "" H 8100 1600 50  0001 C CNN
+	1    8100 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW53
+U 1 1 5B899DFC
+P 8700 1400
+F 0 "SW53" H 8700 1685 50  0000 C CNN
+F 1 "tilde" H 8700 1594 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 8700 1600 50  0001 C CNN
+F 3 "" H 8700 1600 50  0001 C CNN
+	1    8700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW54
+U 1 1 5B899E03
+P 9300 1400
+F 0 "SW54" H 9300 1685 50  0000 C CNN
+F 1 "shift" H 9300 1594 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.50u" H 9300 1600 50  0001 C CNN
+F 3 "" H 9300 1600 50  0001 C CNN
+	1    9300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW60
+U 1 1 5B899E0A
+P 9900 1400
+F 0 "SW60" H 9900 1685 50  0000 C CNN
+F 1 "Fn" H 9900 1594 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 9900 1600 50  0001 C CNN
+F 3 "" H 9900 1600 50  0001 C CNN
+	1    9900 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW43
+U 1 1 5B899E11
+P 10500 1400
+F 0 "SW43" H 10500 1685 50  0000 C CNN
+F 1 "↑" H 10500 1594 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 10500 1600 50  0001 C CNN
+F 3 "" H 10500 1600 50  0001 C CNN
+	1    10500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW36
+U 1 1 5B89A10B
+P 6300 2000
+F 0 "SW36" H 6300 2285 50  0000 C CNN
+F 1 "G" H 6300 2194 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 6300 2200 50  0001 C CNN
+F 3 "" H 6300 2200 50  0001 C CNN
+	1    6300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW37
+U 1 1 5B89A112
+P 6900 2000
+F 0 "SW37" H 6900 2285 50  0000 C CNN
+F 1 "F" H 6900 2194 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 6900 2200 50  0001 C CNN
+F 3 "" H 6900 2200 50  0001 C CNN
+	1    6900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW38
+U 1 1 5B89A119
+P 7500 2000
+F 0 "SW38" H 7500 2285 50  0000 C CNN
+F 1 "D" H 7500 2194 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 7500 2200 50  0001 C CNN
+F 3 "" H 7500 2200 50  0001 C CNN
+	1    7500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW39
+U 1 1 5B89A120
+P 8100 2000
+F 0 "SW39" H 8100 2285 50  0000 C CNN
+F 1 "S" H 8100 2194 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 8100 2200 50  0001 C CNN
+F 3 "" H 8100 2200 50  0001 C CNN
+	1    8100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW40
+U 1 1 5B89A127
+P 8700 2000
+F 0 "SW40" H 8700 2285 50  0000 C CNN
+F 1 "A" H 8700 2194 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 8700 2200 50  0001 C CNN
+F 3 "" H 8700 2200 50  0001 C CNN
+	1    8700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW41
+U 1 1 5B89A12E
+P 9300 2000
+F 0 "SW41" H 9300 2285 50  0000 C CNN
+F 1 "cmd1" H 9300 2194 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.50u" H 9300 2200 50  0001 C CNN
+F 3 "" H 9300 2200 50  0001 C CNN
+	1    9300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW61
+U 1 1 5B89A135
+P 9900 2000
+F 0 "SW61" H 9900 2285 50  0000 C CNN
+F 1 "cmd2" H 9900 2194 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.50u" H 9900 2200 50  0001 C CNN
+F 3 "" H 9900 2200 50  0001 C CNN
+	1    9900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW57
+U 1 1 5B89A13C
+P 10500 2000
+F 0 "SW57" H 10500 2285 50  0000 C CNN
+F 1 "←" H 10500 2194 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 10500 2200 50  0001 C CNN
+F 3 "" H 10500 2200 50  0001 C CNN
+	1    10500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW23
+U 1 1 5B89A445
+P 6300 2600
+F 0 "SW23" H 6300 2885 50  0000 C CNN
+F 1 "T" H 6300 2794 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 6300 2800 50  0001 C CNN
+F 3 "" H 6300 2800 50  0001 C CNN
+	1    6300 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW24
+U 1 1 5B89A44C
+P 6900 2600
+F 0 "SW24" H 6900 2885 50  0000 C CNN
+F 1 "R" H 6900 2794 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 6900 2800 50  0001 C CNN
+F 3 "" H 6900 2800 50  0001 C CNN
+	1    6900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW25
+U 1 1 5B89A453
+P 7500 2600
+F 0 "SW25" H 7500 2885 50  0000 C CNN
+F 1 "E" H 7500 2794 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 7500 2800 50  0001 C CNN
+F 3 "" H 7500 2800 50  0001 C CNN
+	1    7500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW26
+U 1 1 5B89A45A
+P 8100 2600
+F 0 "SW26" H 8100 2885 50  0000 C CNN
+F 1 "W" H 8100 2794 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 8100 2800 50  0001 C CNN
+F 3 "" H 8100 2800 50  0001 C CNN
+	1    8100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW27
+U 1 1 5B89A461
+P 8700 2600
+F 0 "SW27" H 8700 2885 50  0000 C CNN
+F 1 "Q" H 8700 2794 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 8700 2800 50  0001 C CNN
+F 3 "" H 8700 2800 50  0001 C CNN
+	1    8700 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW28
+U 1 1 5B89A468
+P 9300 2600
+F 0 "SW28" H 9300 2885 50  0000 C CNN
+F 1 "⇥" H 9300 2794 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.50u" H 9300 2800 50  0001 C CNN
+F 3 "" H 9300 2800 50  0001 C CNN
+	1    9300 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW62
+U 1 1 5B89A46F
+P 9900 2600
+F 0 "SW62" H 9900 2885 50  0000 C CNN
+F 1 "⌥" H 9900 2794 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.25u" H 9900 2800 50  0001 C CNN
+F 3 "" H 9900 2800 50  0001 C CNN
+	1    9900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW56
+U 1 1 5B89A476
+P 10500 2600
+F 0 "SW56" H 10500 2885 50  0000 C CNN
+F 1 "↓" H 10500 2794 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 10500 2800 50  0001 C CNN
+F 3 "" H 10500 2800 50  0001 C CNN
+	1    10500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW9
+U 1 1 5B89A47D
+P 6300 3200
+F 0 "SW9" H 6300 3485 50  0000 C CNN
+F 1 "5" H 6300 3394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 6300 3400 50  0001 C CNN
+F 3 "" H 6300 3400 50  0001 C CNN
+	1    6300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 5B89A484
+P 6900 3200
+F 0 "SW10" H 6900 3485 50  0000 C CNN
+F 1 "4" H 6900 3394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 6900 3400 50  0001 C CNN
+F 3 "" H 6900 3400 50  0001 C CNN
+	1    6900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW11
+U 1 1 5B89A48B
+P 7500 3200
+F 0 "SW11" H 7500 3485 50  0000 C CNN
+F 1 "3" H 7500 3394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 7500 3400 50  0001 C CNN
+F 3 "" H 7500 3400 50  0001 C CNN
+	1    7500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW12
+U 1 1 5B89A492
+P 8100 3200
+F 0 "SW12" H 8100 3485 50  0000 C CNN
+F 1 "2" H 8100 3394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 8100 3400 50  0001 C CNN
+F 3 "" H 8100 3400 50  0001 C CNN
+	1    8100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW13
+U 1 1 5B89A499
+P 8700 3200
+F 0 "SW13" H 8700 3485 50  0000 C CNN
+F 1 "1" H 8700 3394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 8700 3400 50  0001 C CNN
+F 3 "" H 8700 3400 50  0001 C CNN
+	1    8700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW14
+U 1 1 5B89A4A0
+P 9300 3200
+F 0 "SW14" H 9300 3485 50  0000 C CNN
+F 1 "esc" H 9300 3394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 9300 3400 50  0001 C CNN
+F 3 "" H 9300 3400 50  0001 C CNN
+	1    9300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW63
+U 1 1 5B89A4A7
+P 9900 3200
+F 0 "SW63" H 9900 3485 50  0000 C CNN
+F 1 "ctrl" H 9900 3394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.25u" H 9900 3400 50  0001 C CNN
+F 3 "" H 9900 3400 50  0001 C CNN
+	1    9900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW55
+U 1 1 5B89A4AE
+P 10500 3200
+F 0 "SW55" H 10500 3485 50  0000 C CNN
+F 1 "→" H 10500 3394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 10500 3400 50  0001 C CNN
+F 3 "" H 10500 3400 50  0001 C CNN
+	1    10500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW35
+U 1 1 5B89BDA7
+P 6300 5000
+F 0 "SW35" H 6300 5285 50  0000 C CNN
+F 1 "H" H 6300 5194 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 6300 5200 50  0001 C CNN
+F 3 "" H 6300 5200 50  0001 C CNN
+	1    6300 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW34
+U 1 1 5B89BDAE
+P 6900 5000
+F 0 "SW34" H 6900 5285 50  0000 C CNN
+F 1 "J" H 6900 5194 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 6900 5200 50  0001 C CNN
+F 3 "" H 6900 5200 50  0001 C CNN
+	1    6900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW33
+U 1 1 5B89BDB5
+P 7500 5000
+F 0 "SW33" H 7500 5285 50  0000 C CNN
+F 1 "K" H 7500 5194 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 7500 5200 50  0001 C CNN
+F 3 "" H 7500 5200 50  0001 C CNN
+	1    7500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW32
+U 1 1 5B89BDBC
+P 8100 5000
+F 0 "SW32" H 8100 5285 50  0000 C CNN
+F 1 "L" H 8100 5194 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 8100 5200 50  0001 C CNN
+F 3 "" H 8100 5200 50  0001 C CNN
+	1    8100 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW31
+U 1 1 5B89BDC3
+P 8700 5000
+F 0 "SW31" H 8700 5285 50  0000 C CNN
+F 1 ";" H 8700 5194 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 8700 5200 50  0001 C CNN
+F 3 "" H 8700 5200 50  0001 C CNN
+	1    8700 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW30
+U 1 1 5B89BDCA
+P 9300 5000
+F 0 "SW30" H 9300 5285 50  0000 C CNN
+F 1 "'" H 9300 5194 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 9300 5200 50  0001 C CNN
+F 3 "" H 9300 5200 50  0001 C CNN
+	1    9300 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW29
+U 1 1 5B89BDD1
+P 9900 5000
+F 0 "SW29" H 9900 5285 50  0000 C CNN
+F 1 "return" H 9900 5194 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_2.00u" H 9900 5200 50  0001 C CNN
+F 3 "" H 9900 5200 50  0001 C CNN
+	1    9900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW42
+U 1 1 5B89BDD8
+P 10500 5000
+F 0 "SW42" H 10500 5285 50  0000 C CNN
+F 1 "/" H 10500 5194 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 10500 5200 50  0001 C CNN
+F 3 "" H 10500 5200 50  0001 C CNN
+	1    10500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW22
+U 1 1 5B89BDDF
+P 6300 4400
+F 0 "SW22" H 6300 4685 50  0000 C CNN
+F 1 "Y" H 6300 4594 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 6300 4600 50  0001 C CNN
+F 3 "" H 6300 4600 50  0001 C CNN
+	1    6300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW21
+U 1 1 5B89BDE6
+P 6900 4400
+F 0 "SW21" H 6900 4685 50  0000 C CNN
+F 1 "U" H 6900 4594 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 6900 4600 50  0001 C CNN
+F 3 "" H 6900 4600 50  0001 C CNN
+	1    6900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW20
+U 1 1 5B89BDED
+P 7500 4400
+F 0 "SW20" H 7500 4685 50  0000 C CNN
+F 1 "I" H 7500 4594 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 7500 4600 50  0001 C CNN
+F 3 "" H 7500 4600 50  0001 C CNN
+	1    7500 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW19
+U 1 1 5B89BDF4
+P 8100 4400
+F 0 "SW19" H 8100 4685 50  0000 C CNN
+F 1 "O" H 8100 4594 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 8100 4600 50  0001 C CNN
+F 3 "" H 8100 4600 50  0001 C CNN
+	1    8100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW18
+U 1 1 5B89BDFB
+P 8700 4400
+F 0 "SW18" H 8700 4685 50  0000 C CNN
+F 1 "P" H 8700 4594 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 8700 4600 50  0001 C CNN
+F 3 "" H 8700 4600 50  0001 C CNN
+	1    8700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW17
+U 1 1 5B89BE02
+P 9300 4400
+F 0 "SW17" H 9300 4685 50  0000 C CNN
+F 1 "[" H 9300 4594 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 9300 4600 50  0001 C CNN
+F 3 "" H 9300 4600 50  0001 C CNN
+	1    9300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW16
+U 1 1 5B89BE09
+P 9900 4400
+F 0 "SW16" H 9900 4685 50  0000 C CNN
+F 1 "]" H 9900 4594 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 9900 4600 50  0001 C CNN
+F 3 "" H 9900 4600 50  0001 C CNN
+	1    9900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW15
+U 1 1 5B89BE10
+P 10500 4400
+F 0 "SW15" H 10500 4685 50  0000 C CNN
+F 1 "del" H 10500 4594 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.50u" H 10500 4600 50  0001 C CNN
+F 3 "" H 10500 4600 50  0001 C CNN
+	1    10500 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5B89BE17
+P 6300 3800
+F 0 "SW8" H 6300 4085 50  0000 C CNN
+F 1 "6" H 6300 3994 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 6300 4000 50  0001 C CNN
+F 3 "" H 6300 4000 50  0001 C CNN
+	1    6300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5B89BE1E
+P 6900 3800
+F 0 "SW7" H 6900 4085 50  0000 C CNN
+F 1 "7" H 6900 3994 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 6900 4000 50  0001 C CNN
+F 3 "" H 6900 4000 50  0001 C CNN
+	1    6900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5B89BE25
+P 7500 3800
+F 0 "SW6" H 7500 4085 50  0000 C CNN
+F 1 "8" H 7500 3994 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 7500 4000 50  0001 C CNN
+F 3 "" H 7500 4000 50  0001 C CNN
+	1    7500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5B89BE2C
+P 8100 3800
+F 0 "SW5" H 8100 4085 50  0000 C CNN
+F 1 "9" H 8100 3994 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 8100 4000 50  0001 C CNN
+F 3 "" H 8100 4000 50  0001 C CNN
+	1    8100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5B89BE33
+P 8700 3800
+F 0 "SW4" H 8700 4085 50  0000 C CNN
+F 1 "0" H 8700 3994 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 8700 4000 50  0001 C CNN
+F 3 "" H 8700 4000 50  0001 C CNN
+	1    8700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5B89BE3A
+P 9300 3800
+F 0 "SW3" H 9300 4085 50  0000 C CNN
+F 1 "-" H 9300 3994 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 9300 4000 50  0001 C CNN
+F 3 "" H 9300 4000 50  0001 C CNN
+	1    9300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5B89BE41
+P 9900 3800
+F 0 "SW2" H 9900 4085 50  0000 C CNN
+F 1 "=" H 9900 3994 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 9900 4000 50  0001 C CNN
+F 3 "" H 9900 4000 50  0001 C CNN
+	1    9900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5B89BE48
+P 10500 3800
+F 0 "SW1" H 10500 4085 50  0000 C CNN
+F 1 "\\" H 10500 3994 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 10500 4000 50  0001 C CNN
+F 3 "" H 10500 4000 50  0001 C CNN
+	1    10500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW48
+U 1 1 5B89BE4F
+P 6300 5600
+F 0 "SW48" H 6300 5885 50  0000 C CNN
+F 1 "B" H 6300 5794 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 6300 5800 50  0001 C CNN
+F 3 "" H 6300 5800 50  0001 C CNN
+	1    6300 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW47
+U 1 1 5B89BE56
+P 6900 5600
+F 0 "SW47" H 6900 5885 50  0000 C CNN
+F 1 "N" H 6900 5794 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 6900 5800 50  0001 C CNN
+F 3 "" H 6900 5800 50  0001 C CNN
+	1    6900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW46
+U 1 1 5B89BE5D
+P 7500 5600
+F 0 "SW46" H 7500 5885 50  0000 C CNN
+F 1 "M" H 7500 5794 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 7500 5800 50  0001 C CNN
+F 3 "" H 7500 5800 50  0001 C CNN
+	1    7500 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW45
+U 1 1 5B89BE64
+P 8100 5600
+F 0 "SW45" H 8100 5885 50  0000 C CNN
+F 1 "," H 8100 5794 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 8100 5800 50  0001 C CNN
+F 3 "" H 8100 5800 50  0001 C CNN
+	1    8100 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW44
+U 1 1 5B89BE6B
+P 8700 5600
+F 0 "SW44" H 8700 5885 50  0000 C CNN
+F 1 "." H 8700 5794 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.00u" H 8700 5800 50  0001 C CNN
+F 3 "" H 8700 5800 50  0001 C CNN
+	1    8700 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW58
+U 1 1 5B89BE72
+P 9300 5600
+F 0 "SW58" H 9300 5885 50  0000 C CNN
+F 1 "cmd3" H 9300 5794 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_1.50u" H 9300 5800 50  0001 C CNN
+F 3 "" H 9300 5800 50  0001 C CNN
+	1    9300 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW59
+U 1 1 5B89BE79
+P 9900 5600
+F 0 "SW59" H 9900 5885 50  0000 C CNN
+F 1 "space" H 9900 5794 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Matias_2.25u" H 9900 5800 50  0001 C CNN
+F 3 "" H 9900 5800 50  0001 C CNN
+	1    9900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:LL4148 D1
+U 1 1 5B8C1584
+P 6100 1150
+F 0 "D1" V 6146 1071 50  0001 R CNN
+F 1 "LL4148" V 6055 1071 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6100 975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6100 1150 50  0001 C CNN
+	1    6100 1150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D9
+U 1 1 5B8C18CE
+P 6700 1150
+F 0 "D9" V 6746 1071 50  0001 R CNN
+F 1 "LL4148" V 6655 1071 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6700 975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6700 1150 50  0001 C CNN
+	1    6700 1150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D17
+U 1 1 5B8C19F0
+P 7300 1150
+F 0 "D17" V 7346 1071 50  0001 R CNN
+F 1 "LL4148" V 7255 1071 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7300 975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7300 1150 50  0001 C CNN
+	1    7300 1150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D25
+U 1 1 5B8C1B12
+P 7900 1150
+F 0 "D25" V 7946 1071 50  0001 R CNN
+F 1 "LL4148" V 7855 1071 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7900 975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7900 1150 50  0001 C CNN
+	1    7900 1150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D33
+U 1 1 5B8C1C34
+P 8500 1150
+F 0 "D33" V 8546 1071 50  0001 R CNN
+F 1 "LL4148" V 8455 1071 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 8500 975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 8500 1150 50  0001 C CNN
+	1    8500 1150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D41
+U 1 1 5B8C1D56
+P 9100 1150
+F 0 "D41" V 9146 1071 50  0001 R CNN
+F 1 "LL4148" V 9055 1071 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9100 975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9100 1150 50  0001 C CNN
+	1    9100 1150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D49
+U 1 1 5B8C1E78
+P 9700 1150
+F 0 "D49" V 9746 1071 50  0001 R CNN
+F 1 "LL4148" V 9655 1071 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9700 975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9700 1150 50  0001 C CNN
+	1    9700 1150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D57
+U 1 1 5B8C1F9A
+P 10300 1150
+F 0 "D57" V 10346 1071 50  0001 R CNN
+F 1 "LL4148" V 10255 1071 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 10300 975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 10300 1150 50  0001 C CNN
+	1    10300 1150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D2
+U 1 1 5B8C20BC
+P 6100 1750
+F 0 "D2" V 6146 1671 50  0001 R CNN
+F 1 "LL4148" V 6055 1671 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6100 1575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6100 1750 50  0001 C CNN
+	1    6100 1750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D10
+U 1 1 5B8C21DE
+P 6700 1750
+F 0 "D10" V 6746 1671 50  0001 R CNN
+F 1 "LL4148" V 6655 1671 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6700 1575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6700 1750 50  0001 C CNN
+	1    6700 1750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D18
+U 1 1 5B8C2300
+P 7300 1750
+F 0 "D18" V 7346 1671 50  0001 R CNN
+F 1 "LL4148" V 7255 1671 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7300 1575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7300 1750 50  0001 C CNN
+	1    7300 1750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D26
+U 1 1 5B8C2422
+P 7900 1750
+F 0 "D26" V 7946 1671 50  0001 R CNN
+F 1 "LL4148" V 7855 1671 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7900 1575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7900 1750 50  0001 C CNN
+	1    7900 1750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D34
+U 1 1 5B8C2544
+P 8500 1750
+F 0 "D34" V 8546 1671 50  0001 R CNN
+F 1 "LL4148" V 8455 1671 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 8500 1575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 8500 1750 50  0001 C CNN
+	1    8500 1750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D42
+U 1 1 5B8C2666
+P 9100 1750
+F 0 "D42" V 9146 1671 50  0001 R CNN
+F 1 "LL4148" V 9055 1671 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9100 1575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9100 1750 50  0001 C CNN
+	1    9100 1750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D50
+U 1 1 5B8C2788
+P 9700 1750
+F 0 "D50" V 9746 1671 50  0001 R CNN
+F 1 "LL4148" V 9655 1671 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9700 1575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9700 1750 50  0001 C CNN
+	1    9700 1750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D58
+U 1 1 5B8C28AA
+P 10300 1750
+F 0 "D58" V 10346 1671 50  0001 R CNN
+F 1 "LL4148" V 10255 1671 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 10300 1575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 10300 1750 50  0001 C CNN
+	1    10300 1750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D3
+U 1 1 5B8C2A8F
+P 6100 2350
+F 0 "D3" V 6146 2271 50  0001 R CNN
+F 1 "LL4148" V 6055 2271 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6100 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6100 2350 50  0001 C CNN
+	1    6100 2350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D11
+U 1 1 5B8C2BB1
+P 6700 2350
+F 0 "D11" V 6746 2271 50  0001 R CNN
+F 1 "LL4148" V 6655 2271 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6700 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6700 2350 50  0001 C CNN
+	1    6700 2350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D19
+U 1 1 5B8C2CD3
+P 7300 2350
+F 0 "D19" V 7346 2271 50  0001 R CNN
+F 1 "LL4148" V 7255 2271 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7300 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7300 2350 50  0001 C CNN
+	1    7300 2350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D27
+U 1 1 5B8C2DF5
+P 7900 2350
+F 0 "D27" V 7946 2271 50  0001 R CNN
+F 1 "LL4148" V 7855 2271 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7900 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7900 2350 50  0001 C CNN
+	1    7900 2350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D35
+U 1 1 5B8C2F17
+P 8500 2350
+F 0 "D35" V 8546 2271 50  0001 R CNN
+F 1 "LL4148" V 8455 2271 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 8500 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 8500 2350 50  0001 C CNN
+	1    8500 2350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D43
+U 1 1 5B8C3039
+P 9100 2350
+F 0 "D43" V 9146 2271 50  0001 R CNN
+F 1 "LL4148" V 9055 2271 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9100 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9100 2350 50  0001 C CNN
+	1    9100 2350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D51
+U 1 1 5B8C315B
+P 9700 2350
+F 0 "D51" V 9746 2271 50  0001 R CNN
+F 1 "LL4148" V 9655 2271 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9700 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9700 2350 50  0001 C CNN
+	1    9700 2350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D59
+U 1 1 5B8C327D
+P 10300 2350
+F 0 "D59" V 10346 2271 50  0001 R CNN
+F 1 "LL4148" V 10255 2271 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 10300 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 10300 2350 50  0001 C CNN
+	1    10300 2350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D4
+U 1 1 5B8C346C
+P 6100 2950
+F 0 "D4" V 6146 2871 50  0001 R CNN
+F 1 "LL4148" V 6055 2871 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6100 2775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6100 2950 50  0001 C CNN
+	1    6100 2950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D12
+U 1 1 5B8C358E
+P 6700 2950
+F 0 "D12" V 6746 2871 50  0001 R CNN
+F 1 "LL4148" V 6655 2871 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6700 2775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6700 2950 50  0001 C CNN
+	1    6700 2950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D20
+U 1 1 5B8C36B0
+P 7300 2950
+F 0 "D20" V 7346 2871 50  0001 R CNN
+F 1 "LL4148" V 7255 2871 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7300 2775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7300 2950 50  0001 C CNN
+	1    7300 2950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D28
+U 1 1 5B8C37D2
+P 7900 2950
+F 0 "D28" V 7946 2871 50  0001 R CNN
+F 1 "LL4148" V 7855 2871 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7900 2775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7900 2950 50  0001 C CNN
+	1    7900 2950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D36
+U 1 1 5B8C38F4
+P 8500 2950
+F 0 "D36" V 8546 2871 50  0001 R CNN
+F 1 "LL4148" V 8455 2871 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 8500 2775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 8500 2950 50  0001 C CNN
+	1    8500 2950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D44
+U 1 1 5B8C3A16
+P 9100 2950
+F 0 "D44" V 9146 2871 50  0001 R CNN
+F 1 "LL4148" V 9055 2871 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9100 2775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9100 2950 50  0001 C CNN
+	1    9100 2950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D52
+U 1 1 5B8C3B38
+P 9700 2950
+F 0 "D52" V 9746 2871 50  0001 R CNN
+F 1 "LL4148" V 9655 2871 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9700 2775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9700 2950 50  0001 C CNN
+	1    9700 2950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D60
+U 1 1 5B8C3C5A
+P 10300 2950
+F 0 "D60" V 10346 2871 50  0001 R CNN
+F 1 "LL4148" V 10255 2871 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 10300 2775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 10300 2950 50  0001 C CNN
+	1    10300 2950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D5
+U 1 1 5B8C3D7C
+P 6100 3550
+F 0 "D5" V 6146 3471 50  0001 R CNN
+F 1 "LL4148" V 6055 3471 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6100 3375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6100 3550 50  0001 C CNN
+	1    6100 3550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D13
+U 1 1 5B8C3E9E
+P 6700 3550
+F 0 "D13" V 6746 3471 50  0001 R CNN
+F 1 "LL4148" V 6655 3471 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6700 3375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6700 3550 50  0001 C CNN
+	1    6700 3550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D21
+U 1 1 5B8C3FC0
+P 7300 3550
+F 0 "D21" V 7346 3471 50  0001 R CNN
+F 1 "LL4148" V 7255 3471 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7300 3375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7300 3550 50  0001 C CNN
+	1    7300 3550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D29
+U 1 1 5B8C40E2
+P 7900 3550
+F 0 "D29" V 7946 3471 50  0001 R CNN
+F 1 "LL4148" V 7855 3471 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7900 3375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7900 3550 50  0001 C CNN
+	1    7900 3550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D37
+U 1 1 5B8C4204
+P 8500 3550
+F 0 "D37" V 8546 3471 50  0001 R CNN
+F 1 "LL4148" V 8455 3471 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 8500 3375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 8500 3550 50  0001 C CNN
+	1    8500 3550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D45
+U 1 1 5B8C4326
+P 9100 3550
+F 0 "D45" V 9146 3471 50  0001 R CNN
+F 1 "LL4148" V 9055 3471 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9100 3375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9100 3550 50  0001 C CNN
+	1    9100 3550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D53
+U 1 1 5B8C4448
+P 9700 3550
+F 0 "D53" V 9746 3471 50  0001 R CNN
+F 1 "LL4148" V 9655 3471 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9700 3375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9700 3550 50  0001 C CNN
+	1    9700 3550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D61
+U 1 1 5B8C456A
+P 10300 3550
+F 0 "D61" V 10346 3471 50  0001 R CNN
+F 1 "LL4148" V 10255 3471 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 10300 3375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 10300 3550 50  0001 C CNN
+	1    10300 3550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D6
+U 1 1 5B8C4A5B
+P 6100 4150
+F 0 "D6" V 6146 4071 50  0001 R CNN
+F 1 "LL4148" V 6055 4071 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6100 3975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6100 4150 50  0001 C CNN
+	1    6100 4150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D14
+U 1 1 5B8C4B7D
+P 6700 4150
+F 0 "D14" V 6746 4071 50  0001 R CNN
+F 1 "LL4148" V 6655 4071 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6700 3975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6700 4150 50  0001 C CNN
+	1    6700 4150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D22
+U 1 1 5B8C4C9F
+P 7300 4150
+F 0 "D22" V 7346 4071 50  0001 R CNN
+F 1 "LL4148" V 7255 4071 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7300 3975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7300 4150 50  0001 C CNN
+	1    7300 4150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D30
+U 1 1 5B8C4DC1
+P 7900 4150
+F 0 "D30" V 7946 4071 50  0001 R CNN
+F 1 "LL4148" V 7855 4071 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7900 3975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7900 4150 50  0001 C CNN
+	1    7900 4150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D38
+U 1 1 5B8C4EE3
+P 8500 4150
+F 0 "D38" V 8546 4071 50  0001 R CNN
+F 1 "LL4148" V 8455 4071 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 8500 3975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 8500 4150 50  0001 C CNN
+	1    8500 4150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D46
+U 1 1 5B8C5005
+P 9100 4150
+F 0 "D46" V 9146 4071 50  0001 R CNN
+F 1 "LL4148" V 9055 4071 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9100 3975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9100 4150 50  0001 C CNN
+	1    9100 4150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D54
+U 1 1 5B8C5127
+P 9700 4150
+F 0 "D54" V 9746 4071 50  0001 R CNN
+F 1 "LL4148" V 9655 4071 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9700 3975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9700 4150 50  0001 C CNN
+	1    9700 4150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D62
+U 1 1 5B8C5249
+P 10300 4150
+F 0 "D62" V 10346 4071 50  0001 R CNN
+F 1 "LL4148" V 10255 4071 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 10300 3975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 10300 4150 50  0001 C CNN
+	1    10300 4150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D7
+U 1 1 5B8C536B
+P 6100 4750
+F 0 "D7" V 6146 4671 50  0001 R CNN
+F 1 "LL4148" V 6055 4671 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6100 4575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6100 4750 50  0001 C CNN
+	1    6100 4750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D15
+U 1 1 5B8C548D
+P 6700 4750
+F 0 "D15" V 6746 4671 50  0001 R CNN
+F 1 "LL4148" V 6655 4671 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6700 4575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6700 4750 50  0001 C CNN
+	1    6700 4750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D23
+U 1 1 5B8C55AF
+P 7300 4750
+F 0 "D23" V 7346 4671 50  0001 R CNN
+F 1 "LL4148" V 7255 4671 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7300 4575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7300 4750 50  0001 C CNN
+	1    7300 4750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D31
+U 1 1 5B8C56D1
+P 7900 4750
+F 0 "D31" V 7946 4671 50  0001 R CNN
+F 1 "LL4148" V 7855 4671 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7900 4575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7900 4750 50  0001 C CNN
+	1    7900 4750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D39
+U 1 1 5B8C57F3
+P 8500 4750
+F 0 "D39" V 8546 4671 50  0001 R CNN
+F 1 "LL4148" V 8455 4671 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 8500 4575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 8500 4750 50  0001 C CNN
+	1    8500 4750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D47
+U 1 1 5B8C5915
+P 9100 4750
+F 0 "D47" V 9146 4671 50  0001 R CNN
+F 1 "LL4148" V 9055 4671 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9100 4575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9100 4750 50  0001 C CNN
+	1    9100 4750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D55
+U 1 1 5B8C5A37
+P 9700 4750
+F 0 "D55" V 9746 4671 50  0001 R CNN
+F 1 "LL4148" V 9655 4671 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9700 4575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9700 4750 50  0001 C CNN
+	1    9700 4750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D63
+U 1 1 5B8C5B59
+P 10300 4750
+F 0 "D63" V 10346 4671 50  0001 R CNN
+F 1 "LL4148" V 10255 4671 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 10300 4575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 10300 4750 50  0001 C CNN
+	1    10300 4750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D8
+U 1 1 5B8C5C7B
+P 6100 5350
+F 0 "D8" V 6146 5271 50  0001 R CNN
+F 1 "LL4148" V 6055 5271 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6100 5175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6100 5350 50  0001 C CNN
+	1    6100 5350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D16
+U 1 1 5B8C5D9D
+P 6700 5350
+F 0 "D16" V 6746 5271 50  0001 R CNN
+F 1 "LL4148" V 6655 5271 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 6700 5175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6700 5350 50  0001 C CNN
+	1    6700 5350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D24
+U 1 1 5B8C5EBF
+P 7300 5350
+F 0 "D24" V 7346 5271 50  0001 R CNN
+F 1 "LL4148" V 7255 5271 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7300 5175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7300 5350 50  0001 C CNN
+	1    7300 5350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D32
+U 1 1 5B8C5FE1
+P 7900 5350
+F 0 "D32" V 7946 5271 50  0001 R CNN
+F 1 "LL4148" V 7855 5271 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 7900 5175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 7900 5350 50  0001 C CNN
+	1    7900 5350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D40
+U 1 1 5B8C6103
+P 8500 5350
+F 0 "D40" V 8546 5271 50  0001 R CNN
+F 1 "LL4148" V 8455 5271 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 8500 5175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 8500 5350 50  0001 C CNN
+	1    8500 5350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D48
+U 1 1 5B8C6225
+P 9100 5350
+F 0 "D48" V 9146 5271 50  0001 R CNN
+F 1 "LL4148" V 9055 5271 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9100 5175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9100 5350 50  0001 C CNN
+	1    9100 5350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:LL4148 D56
+U 1 1 5B8C6347
+P 9700 5350
+F 0 "D56" V 9746 5271 50  0001 R CNN
+F 1 "LL4148" V 9655 5271 50  0001 R CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" H 9700 5175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 9700 5350 50  0001 C CNN
+	1    9700 5350
+	0    1    -1   0   
+$EndComp
+Text GLabel 5900 900  0    50   Input ~ 0
+Row1
+Text GLabel 5900 1500 0    50   Input ~ 0
+Row2
+Text GLabel 5900 2100 0    50   Input ~ 0
+Row3
+Text GLabel 5900 2700 0    50   Input ~ 0
+Row4
+Text GLabel 5900 3300 0    50   Input ~ 0
+Row5
+Text GLabel 5900 3900 0    50   Input ~ 0
+Row6
+Text GLabel 5900 4500 0    50   Input ~ 0
+Row7
+Text GLabel 5900 5100 0    50   Input ~ 0
+Row8
+Wire Wire Line
+	5900 900  6100 900 
+Wire Wire Line
+	5900 1500 6100 1500
+Wire Wire Line
+	5900 2100 6100 2100
+Wire Wire Line
+	5900 2700 6100 2700
+Wire Wire Line
+	5900 3300 6100 3300
+Wire Wire Line
+	5900 5100 6100 5100
+Text GLabel 6600 5950 3    50   Input ~ 0
+Col1
+Text GLabel 7200 5950 3    50   Input ~ 0
+Col2
+Text GLabel 7800 5950 3    50   Input ~ 0
+Col3
+Text GLabel 8400 5950 3    50   Input ~ 0
+Col4
+Text GLabel 9000 5950 3    50   Input ~ 0
+Col5
+Text GLabel 9600 5950 3    50   Input ~ 0
+Col6
+Text GLabel 10200 5950 3    50   Input ~ 0
+Col7
+Text GLabel 10800 5950 3    50   Input ~ 0
+Col8
+Wire Wire Line
+	6100 1000 6100 900 
+Connection ~ 6100 900 
+Wire Wire Line
+	6100 900  6700 900 
+Wire Wire Line
+	6700 1000 6700 900 
+Connection ~ 6700 900 
+Wire Wire Line
+	6700 900  7300 900 
+Wire Wire Line
+	7300 1000 7300 900 
+Connection ~ 7300 900 
+Wire Wire Line
+	7300 900  7900 900 
+Wire Wire Line
+	7900 1000 7900 900 
+Connection ~ 7900 900 
+Wire Wire Line
+	7900 900  8500 900 
+Wire Wire Line
+	8500 1000 8500 900 
+Connection ~ 8500 900 
+Wire Wire Line
+	8500 900  9100 900 
+Wire Wire Line
+	9100 1000 9100 900 
+Connection ~ 9100 900 
+Wire Wire Line
+	9100 900  9700 900 
+Wire Wire Line
+	9700 1000 9700 900 
+Connection ~ 9700 900 
+Wire Wire Line
+	9700 900  10300 900 
+Wire Wire Line
+	10300 1000 10300 900 
+Wire Wire Line
+	10300 1600 10300 1500
+Wire Wire Line
+	9700 1600 9700 1500
+Connection ~ 9700 1500
+Wire Wire Line
+	9700 1500 10300 1500
+Wire Wire Line
+	9100 1600 9100 1500
+Connection ~ 9100 1500
+Wire Wire Line
+	9100 1500 9700 1500
+Wire Wire Line
+	8500 1600 8500 1500
+Connection ~ 8500 1500
+Wire Wire Line
+	8500 1500 9100 1500
+Wire Wire Line
+	7900 1600 7900 1500
+Connection ~ 7900 1500
+Wire Wire Line
+	7900 1500 8500 1500
+Wire Wire Line
+	7300 1600 7300 1500
+Connection ~ 7300 1500
+Wire Wire Line
+	7300 1500 7900 1500
+Wire Wire Line
+	6700 1600 6700 1500
+Connection ~ 6700 1500
+Wire Wire Line
+	6700 1500 7300 1500
+Wire Wire Line
+	6100 1600 6100 1500
+Connection ~ 6100 1500
+Wire Wire Line
+	6100 1500 6700 1500
+Wire Wire Line
+	6100 2200 6100 2100
+Connection ~ 6100 2100
+Wire Wire Line
+	6100 2100 6700 2100
+Wire Wire Line
+	6700 2200 6700 2100
+Connection ~ 6700 2100
+Wire Wire Line
+	6700 2100 7300 2100
+Wire Wire Line
+	7300 2200 7300 2100
+Connection ~ 7300 2100
+Wire Wire Line
+	7300 2100 7900 2100
+Wire Wire Line
+	7900 2200 7900 2100
+Connection ~ 7900 2100
+Wire Wire Line
+	7900 2100 8500 2100
+Wire Wire Line
+	8500 2200 8500 2100
+Connection ~ 8500 2100
+Wire Wire Line
+	8500 2100 9100 2100
+Wire Wire Line
+	9100 2200 9100 2100
+Connection ~ 9100 2100
+Wire Wire Line
+	9700 2200 9700 2100
+Wire Wire Line
+	9100 2100 9700 2100
+Connection ~ 9700 2100
+Wire Wire Line
+	9700 2100 10300 2100
+Wire Wire Line
+	10300 2200 10300 2100
+Wire Wire Line
+	10300 2800 10300 2700
+Wire Wire Line
+	9700 2800 9700 2700
+Connection ~ 9700 2700
+Wire Wire Line
+	9700 2700 10300 2700
+Wire Wire Line
+	9100 2800 9100 2700
+Connection ~ 9100 2700
+Wire Wire Line
+	9100 2700 9700 2700
+Wire Wire Line
+	8500 2800 8500 2700
+Connection ~ 8500 2700
+Wire Wire Line
+	8500 2700 9100 2700
+Wire Wire Line
+	7900 2800 7900 2700
+Connection ~ 7900 2700
+Wire Wire Line
+	7900 2700 8500 2700
+Wire Wire Line
+	7300 2800 7300 2700
+Connection ~ 7300 2700
+Wire Wire Line
+	7300 2700 7900 2700
+Wire Wire Line
+	6700 2800 6700 2700
+Connection ~ 6700 2700
+Wire Wire Line
+	6700 2700 7300 2700
+Wire Wire Line
+	6100 2800 6100 2700
+Connection ~ 6100 2700
+Wire Wire Line
+	6100 2700 6700 2700
+Wire Wire Line
+	6100 3400 6100 3300
+Connection ~ 6100 3300
+Wire Wire Line
+	6100 3300 6700 3300
+Wire Wire Line
+	6700 3400 6700 3300
+Connection ~ 6700 3300
+Wire Wire Line
+	6700 3300 7300 3300
+Wire Wire Line
+	7300 3400 7300 3300
+Connection ~ 7300 3300
+Wire Wire Line
+	7300 3300 7900 3300
+Wire Wire Line
+	7900 3400 7900 3300
+Connection ~ 7900 3300
+Wire Wire Line
+	7900 3300 8500 3300
+Wire Wire Line
+	8500 3400 8500 3300
+Connection ~ 8500 3300
+Wire Wire Line
+	8500 3300 9100 3300
+Wire Wire Line
+	9100 3400 9100 3300
+Connection ~ 9100 3300
+Wire Wire Line
+	9100 3300 9700 3300
+Wire Wire Line
+	9700 3400 9700 3300
+Connection ~ 9700 3300
+Wire Wire Line
+	9700 3300 10300 3300
+Wire Wire Line
+	10300 3400 10300 3300
+Wire Wire Line
+	10300 4000 10300 3900
+Wire Wire Line
+	9700 4000 9700 3900
+Connection ~ 9700 3900
+Wire Wire Line
+	9700 3900 10300 3900
+Wire Wire Line
+	9100 4000 9100 3900
+Connection ~ 9100 3900
+Wire Wire Line
+	9100 3900 9700 3900
+Wire Wire Line
+	8500 4000 8500 3900
+Connection ~ 8500 3900
+Wire Wire Line
+	8500 3900 9100 3900
+Wire Wire Line
+	7900 4000 7900 3900
+Wire Wire Line
+	5900 3900 6100 3900
+Connection ~ 7900 3900
+Wire Wire Line
+	7900 3900 8500 3900
+Wire Wire Line
+	7300 4000 7300 3900
+Connection ~ 7300 3900
+Wire Wire Line
+	7300 3900 7900 3900
+Wire Wire Line
+	6700 4000 6700 3900
+Connection ~ 6700 3900
+Wire Wire Line
+	6700 3900 7300 3900
+Wire Wire Line
+	6100 4000 6100 3900
+Connection ~ 6100 3900
+Wire Wire Line
+	6100 3900 6700 3900
+Wire Wire Line
+	6100 4400 6100 4300
+Wire Wire Line
+	6700 4400 6700 4300
+Wire Wire Line
+	6500 4400 6600 4400
+Connection ~ 6600 4400
+Wire Wire Line
+	6600 4400 6600 5000
+Wire Wire Line
+	7100 4400 7200 4400
+Connection ~ 7200 4400
+Wire Wire Line
+	7200 4400 7200 5000
+Wire Wire Line
+	7300 4300 7300 4400
+Wire Wire Line
+	7700 4400 7800 4400
+Connection ~ 7800 4400
+Wire Wire Line
+	7800 4400 7800 5000
+Wire Wire Line
+	7900 4300 7900 4400
+Wire Wire Line
+	8300 4400 8400 4400
+Connection ~ 8400 4400
+Wire Wire Line
+	8400 4400 8400 5000
+Wire Wire Line
+	8500 4300 8500 4400
+Wire Wire Line
+	8900 4400 9000 4400
+Connection ~ 9000 4400
+Wire Wire Line
+	9000 4400 9000 5000
+Wire Wire Line
+	9100 4400 9100 4300
+Wire Wire Line
+	9500 4400 9600 4400
+Connection ~ 9600 4400
+Wire Wire Line
+	9600 4400 9600 5000
+Wire Wire Line
+	9700 4400 9700 4300
+Wire Wire Line
+	10100 4400 10200 4400
+Connection ~ 10200 4400
+Wire Wire Line
+	10200 4400 10200 5000
+Wire Wire Line
+	10300 4400 10300 4300
+Wire Wire Line
+	10700 4400 10800 4400
+Connection ~ 10800 4400
+Wire Wire Line
+	10800 4400 10800 5000
+Wire Wire Line
+	10700 3800 10800 3800
+Connection ~ 10800 3800
+Wire Wire Line
+	10800 3800 10800 4400
+Wire Wire Line
+	10700 3200 10800 3200
+Connection ~ 10800 3200
+Wire Wire Line
+	10800 3200 10800 3800
+Wire Wire Line
+	10700 2600 10800 2600
+Connection ~ 10800 2600
+Wire Wire Line
+	10800 2600 10800 3200
+Wire Wire Line
+	6500 3800 6600 3800
+Connection ~ 6600 3800
+Wire Wire Line
+	6600 3800 6600 4400
+Wire Wire Line
+	7100 3800 7200 3800
+Connection ~ 7200 3800
+Wire Wire Line
+	7200 3800 7200 4400
+Wire Wire Line
+	7700 3800 7800 3800
+Connection ~ 7800 3800
+Wire Wire Line
+	7800 3800 7800 4400
+Wire Wire Line
+	8300 3800 8400 3800
+Connection ~ 8400 3800
+Wire Wire Line
+	8400 3800 8400 4400
+Wire Wire Line
+	8900 3800 9000 3800
+Connection ~ 9000 3800
+Wire Wire Line
+	9000 3800 9000 4400
+Wire Wire Line
+	9500 3800 9600 3800
+Connection ~ 9600 3800
+Wire Wire Line
+	9600 3800 9600 4400
+Wire Wire Line
+	10100 3800 10200 3800
+Connection ~ 10200 3800
+Wire Wire Line
+	10200 3800 10200 4400
+Wire Wire Line
+	10300 3800 10300 3700
+Wire Wire Line
+	10300 3200 10300 3100
+Wire Wire Line
+	10300 2600 10300 2500
+Wire Wire Line
+	10300 2000 10300 1900
+Wire Wire Line
+	9700 1900 9700 2000
+Wire Wire Line
+	9700 2500 9700 2600
+Wire Wire Line
+	10100 2600 10200 2600
+Connection ~ 10200 2600
+Wire Wire Line
+	10200 2600 10200 3200
+Wire Wire Line
+	10100 3200 10200 3200
+Connection ~ 10200 3200
+Wire Wire Line
+	10200 3200 10200 3800
+Wire Wire Line
+	10100 2000 10200 2000
+Connection ~ 10200 2000
+Wire Wire Line
+	10200 2000 10200 2600
+Wire Wire Line
+	9500 2000 9600 2000
+Connection ~ 9600 2000
+Wire Wire Line
+	9600 2000 9600 2600
+Wire Wire Line
+	8900 2000 9000 2000
+Connection ~ 9000 2000
+Wire Wire Line
+	9000 2000 9000 2600
+Wire Wire Line
+	8300 2000 8400 2000
+Connection ~ 8400 2000
+Wire Wire Line
+	8400 2000 8400 2600
+Wire Wire Line
+	7700 2000 7800 2000
+Connection ~ 7800 2000
+Wire Wire Line
+	7800 2000 7800 2600
+Wire Wire Line
+	7100 2000 7200 2000
+Connection ~ 7200 2000
+Wire Wire Line
+	7200 2000 7200 2600
+Wire Wire Line
+	6500 2000 6600 2000
+Connection ~ 6600 2000
+Wire Wire Line
+	6600 2000 6600 2600
+Wire Wire Line
+	6500 2600 6600 2600
+Connection ~ 6600 2600
+Wire Wire Line
+	6600 2600 6600 3200
+Wire Wire Line
+	7100 2600 7200 2600
+Connection ~ 7200 2600
+Wire Wire Line
+	7200 2600 7200 3200
+Wire Wire Line
+	7300 2600 7300 2500
+Wire Wire Line
+	7300 2000 7300 1900
+Wire Wire Line
+	6700 1900 6700 2000
+Wire Wire Line
+	6100 2000 6100 1900
+Wire Wire Line
+	6100 2500 6100 2600
+Wire Wire Line
+	6700 2600 6700 2500
+Wire Wire Line
+	7900 2600 7900 2500
+Wire Wire Line
+	8500 2600 8500 2500
+Wire Wire Line
+	9100 2600 9100 2500
+Wire Wire Line
+	9700 3200 9700 3100
+Wire Wire Line
+	9500 3200 9600 3200
+Connection ~ 9600 3200
+Wire Wire Line
+	9600 3200 9600 3800
+Wire Wire Line
+	9100 3200 9100 3100
+Wire Wire Line
+	8900 3200 9000 3200
+Connection ~ 9000 3200
+Wire Wire Line
+	9000 3200 9000 3800
+Wire Wire Line
+	8500 3200 8500 3100
+Wire Wire Line
+	8300 3200 8400 3200
+Connection ~ 8400 3200
+Wire Wire Line
+	8400 3200 8400 3800
+Wire Wire Line
+	7900 3200 7900 3100
+Wire Wire Line
+	7700 3200 7800 3200
+Connection ~ 7800 3200
+Wire Wire Line
+	7800 3200 7800 3800
+Wire Wire Line
+	7300 3100 7300 3200
+Wire Wire Line
+	6700 3200 6700 3100
+Wire Wire Line
+	7100 3200 7200 3200
+Connection ~ 7200 3200
+Wire Wire Line
+	7200 3200 7200 3800
+Wire Wire Line
+	6500 3200 6600 3200
+Connection ~ 6600 3200
+Wire Wire Line
+	6600 3200 6600 3800
+Wire Wire Line
+	6100 3100 6100 3200
+Wire Wire Line
+	6100 3800 6100 3700
+Wire Wire Line
+	6500 1400 6600 1400
+Wire Wire Line
+	6600 1400 6600 2000
+Wire Wire Line
+	7100 1400 7200 1400
+Wire Wire Line
+	7200 1400 7200 2000
+Wire Wire Line
+	7700 1400 7800 1400
+Wire Wire Line
+	7800 1400 7800 2000
+Wire Wire Line
+	8300 1400 8400 1400
+Wire Wire Line
+	8400 1400 8400 2000
+Wire Wire Line
+	8900 1400 9000 1400
+Wire Wire Line
+	9000 1400 9000 2000
+Wire Wire Line
+	9500 1400 9600 1400
+Wire Wire Line
+	9600 1400 9600 2000
+Wire Wire Line
+	10100 1400 10200 1400
+Wire Wire Line
+	10200 1400 10200 2000
+Wire Wire Line
+	10700 1400 10800 1400
+Wire Wire Line
+	10800 1400 10800 2000
+Wire Wire Line
+	5900 4500 6100 4500
+Wire Wire Line
+	10700 5000 10800 5000
+Connection ~ 10800 5000
+Wire Wire Line
+	10800 5000 10800 5950
+Wire Wire Line
+	10300 5000 10300 4900
+Wire Wire Line
+	10300 4600 10300 4500
+Wire Wire Line
+	9700 4600 9700 4500
+Connection ~ 9700 4500
+Wire Wire Line
+	9700 4500 10300 4500
+Wire Wire Line
+	9100 4600 9100 4500
+Connection ~ 9100 4500
+Wire Wire Line
+	9100 4500 9700 4500
+Wire Wire Line
+	8500 4600 8500 4500
+Connection ~ 8500 4500
+Wire Wire Line
+	8500 4500 9100 4500
+Wire Wire Line
+	7900 4600 7900 4500
+Connection ~ 7900 4500
+Wire Wire Line
+	7900 4500 8500 4500
+Wire Wire Line
+	7300 4600 7300 4500
+Connection ~ 7300 4500
+Wire Wire Line
+	7300 4500 7900 4500
+Wire Wire Line
+	6700 4600 6700 4500
+Connection ~ 6700 4500
+Wire Wire Line
+	6700 4500 7300 4500
+Wire Wire Line
+	6100 4600 6100 4500
+Connection ~ 6100 4500
+Wire Wire Line
+	6100 4500 6700 4500
+Wire Wire Line
+	6100 5200 6100 5100
+Connection ~ 6100 5100
+Wire Wire Line
+	6100 5100 6700 5100
+Wire Wire Line
+	6700 5200 6700 5100
+Connection ~ 6700 5100
+Wire Wire Line
+	6700 5100 7300 5100
+Wire Wire Line
+	7300 5200 7300 5100
+Connection ~ 7300 5100
+Wire Wire Line
+	7300 5100 7900 5100
+Wire Wire Line
+	7900 5200 7900 5100
+Connection ~ 7900 5100
+Wire Wire Line
+	7900 5100 8500 5100
+Wire Wire Line
+	8500 5100 8500 5200
+Connection ~ 8500 5100
+Wire Wire Line
+	8500 5100 9100 5100
+Wire Wire Line
+	9100 5200 9100 5100
+Connection ~ 9100 5100
+Wire Wire Line
+	9100 5100 9700 5100
+Wire Wire Line
+	9700 5200 9700 5100
+Wire Wire Line
+	10100 5600 10200 5600
+Connection ~ 10200 5600
+Wire Wire Line
+	10200 5600 10200 5950
+Wire Wire Line
+	10100 5000 10200 5000
+Connection ~ 10200 5000
+Wire Wire Line
+	10200 5000 10200 5600
+Wire Wire Line
+	9700 5000 9700 4900
+Wire Wire Line
+	9700 5600 9700 5500
+Wire Wire Line
+	9100 5600 9100 5500
+Wire Wire Line
+	8500 5600 8500 5500
+Wire Wire Line
+	8900 5600 9000 5600
+Connection ~ 9000 5600
+Wire Wire Line
+	9000 5600 9000 5950
+Wire Wire Line
+	8900 5000 9000 5000
+Connection ~ 9000 5000
+Wire Wire Line
+	9000 5000 9000 5600
+Wire Wire Line
+	8500 5000 8500 4900
+Wire Wire Line
+	8300 5000 8400 5000
+Connection ~ 8400 5000
+Wire Wire Line
+	8400 5000 8400 5600
+Wire Wire Line
+	7900 4900 7900 5000
+Wire Wire Line
+	7300 5000 7300 4900
+Wire Wire Line
+	7700 5000 7800 5000
+Connection ~ 7800 5000
+Wire Wire Line
+	7800 5000 7800 5600
+Wire Wire Line
+	7100 5000 7200 5000
+Connection ~ 7200 5000
+Wire Wire Line
+	7200 5000 7200 5600
+Wire Wire Line
+	6700 5000 6700 4900
+Wire Wire Line
+	6500 5000 6600 5000
+Connection ~ 6600 5000
+Wire Wire Line
+	6600 5000 6600 5600
+Wire Wire Line
+	6100 5000 6100 4900
+Wire Wire Line
+	6100 5600 6100 5500
+Wire Wire Line
+	6500 5600 6600 5600
+Connection ~ 6600 5600
+Wire Wire Line
+	6600 5600 6600 5950
+Wire Wire Line
+	6700 5600 6700 5500
+Wire Wire Line
+	7100 5600 7200 5600
+Connection ~ 7200 5600
+Wire Wire Line
+	7200 5600 7200 5950
+Wire Wire Line
+	7700 5600 7800 5600
+Connection ~ 7800 5600
+Wire Wire Line
+	7800 5600 7800 5950
+Wire Wire Line
+	7300 5600 7300 5500
+Wire Wire Line
+	7900 5600 7900 5500
+Wire Wire Line
+	8300 5600 8400 5600
+Connection ~ 8400 5600
+Wire Wire Line
+	8400 5600 8400 5950
+$Comp
+L Device:Crystal_Small Y1
+U 1 1 5BED4EF7
+P 3100 1650
+F 0 "Y1" V 3050 1500 50  0000 L CNN
+F 1 "16 MHz" V 3150 1300 50  0001 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering" H 3100 1650 50  0001 C CNN
+F 3 "~" H 3100 1650 50  0001 C CNN
+	1    3100 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5BF64462
+P 2900 1550
+F 0 "C1" V 2800 1500 50  0000 C CNN
+F 1 "22pF" V 2762 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2900 1550 50  0001 C CNN
+F 3 "~" H 2900 1550 50  0001 C CNN
+	1    2900 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5BF649C8
+P 2900 1750
+F 0 "C2" V 3000 1700 50  0000 C CNN
+F 1 "22pF" V 3100 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2900 1750 50  0001 C CNN
+F 3 "~" H 2900 1750 50  0001 C CNN
+	1    2900 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5BFC0F55
+P 2800 1650
+F 0 "#PWR04" H 2800 1400 50  0001 C CNN
+F 1 "GND" V 2800 1550 50  0000 R CNN
+F 2 "" H 2800 1650 50  0001 C CNN
+F 3 "" H 2800 1650 50  0001 C CNN
+	1    2800 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5C0513F7
+P 900 4400
+F 0 "#PWR01" H 900 4150 50  0001 C CNN
+F 1 "GND" H 905 4227 50  0000 C CNN
+F 2 "" H 900 4400 50  0001 C CNN
+F 3 "" H 900 4400 50  0001 C CNN
+	1    900  4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5C06A0A5
+P 1800 2300
+F 0 "R1" V 1700 2300 50  0000 C CNN
+F 1 "22ohm" V 1700 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1800 2300 50  0001 C CNN
+F 3 "~" H 1800 2300 50  0001 C CNN
+	1    1800 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5C06A240
+P 1800 2500
+F 0 "R2" V 1900 2500 50  0000 C CNN
+F 1 "22ohm" V 2000 2500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1800 2500 50  0001 C CNN
+F 3 "~" H 1800 2500 50  0001 C CNN
+	1    1800 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5C1AF3C7
+P 3050 2650
+F 0 "C4" V 2950 2600 50  0000 C CNN
+F 1 "1uF" V 3250 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3050 2650 50  0001 C CNN
+F 3 "~" H 3050 2650 50  0001 C CNN
+	1    3050 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5C1AFD5D
+P 2850 2150
+F 0 "C3" V 2750 2100 50  0000 C CNN
+F 1 "1uF" V 3050 2150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2850 2150 50  0001 C CNN
+F 3 "~" H 2850 2150 50  0001 C CNN
+	1    2850 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5C1B0426
+P 2900 2650
+F 0 "#PWR05" H 2900 2400 50  0001 C CNN
+F 1 "GND" V 2905 2522 50  0000 R CNN
+F 2 "" H 2900 2650 50  0001 C CNN
+F 3 "" H 2900 2650 50  0001 C CNN
+	1    2900 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5C1B05E8
+P 2700 2150
+F 0 "#PWR03" H 2700 1900 50  0001 C CNN
+F 1 "GND" H 2705 1977 50  0000 C CNN
+F 2 "" H 2700 2150 50  0001 C CNN
+F 3 "" H 2700 2150 50  0001 C CNN
+	1    2700 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1550 3200 1550
+Wire Wire Line
+	3100 1750 3200 1750
+Wire Wire Line
+	2800 1750 2800 1650
+Connection ~ 2800 1650
+Wire Wire Line
+	3000 1750 3100 1750
+Connection ~ 3100 1750
+Wire Wire Line
+	3100 1550 3000 1550
+Connection ~ 3100 1550
+Wire Wire Line
+	2800 1550 2800 1650
+$Comp
+L power:VBUS #PWR02
+U 1 1 5C59B370
+P 1700 1350
+F 0 "#PWR02" H 1700 1200 50  0001 C CNN
+F 1 "VBUS" H 1715 1523 50  0000 C CNN
+F 2 "" H 1700 1350 50  0001 C CNN
+F 3 "" H 1700 1350 50  0001 C CNN
+	1    1700 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2500 1650 2500
+Wire Wire Line
+	1650 2500 1650 2450
+Wire Wire Line
+	1650 2450 1600 2450
+Wire Wire Line
+	1600 2550 1650 2550
+Wire Wire Line
+	1650 2550 1650 2500
+Connection ~ 1650 2500
+Wire Wire Line
+	1600 2350 1650 2350
+Wire Wire Line
+	1650 2350 1650 2300
+Wire Wire Line
+	1650 2300 1700 2300
+Wire Wire Line
+	1600 2250 1650 2250
+Wire Wire Line
+	1650 2250 1650 2300
+Connection ~ 1650 2300
+Text GLabel 3150 1350 0    50   Input ~ 0
+RESET
+Text GLabel 1950 2500 2    50   BiDi ~ 0
+D+
+Text GLabel 1950 2300 2    50   BiDi ~ 0
+D-
+Text GLabel 3150 2450 0    50   BiDi ~ 0
+D-
+Text GLabel 3150 2350 0    50   BiDi ~ 0
+D+
+$Comp
+L power:GND #PWR08
+U 1 1 5C7FD3C6
+P 3800 4800
+F 0 "#PWR08" H 3800 4550 50  0001 C CNN
+F 1 "GND" H 3805 4627 50  0000 C CNN
+F 2 "" H 3800 4800 50  0001 C CNN
+F 3 "" H 3800 4800 50  0001 C CNN
+	1    3800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR06
+U 1 1 5C850E0A
+P 3000 2150
+F 0 "#PWR06" H 3000 2000 50  0001 C CNN
+F 1 "VBUS" H 3015 2323 50  0000 C CNN
+F 2 "" H 3000 2150 50  0001 C CNN
+F 3 "" H 3000 2150 50  0001 C CNN
+	1    3000 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2150 3200 2150
+Wire Wire Line
+	2750 2150 2700 2150
+Wire Wire Line
+	2950 2150 3000 2150
+Connection ~ 3000 2150
+Wire Wire Line
+	3150 1350 3200 1350
+Wire Wire Line
+	3150 2350 3200 2350
+Wire Wire Line
+	3200 2450 3150 2450
+Wire Wire Line
+	3150 2650 3200 2650
+Wire Wire Line
+	2900 2650 2950 2650
+$Comp
+L power:VBUS #PWR07
+U 1 1 5C5B7DDB
+P 3700 950
+F 0 "#PWR07" H 3700 800 50  0001 C CNN
+F 1 "VBUS" H 3715 1123 50  0000 C CNN
+F 2 "" H 3700 950 50  0001 C CNN
+F 3 "" H 3700 950 50  0001 C CNN
+	1    3700 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1050 3700 950 
+Wire Wire Line
+	900  4350 900  4400
+Connection ~ 900  4350
+Wire Wire Line
+	1900 2300 1950 2300
+Wire Wire Line
+	1950 2500 1900 2500
+Text GLabel 4500 1350 2    50   Input ~ 0
+Row1
+Text GLabel 4500 1450 2    50   Input ~ 0
+Row2
+Text GLabel 4500 1550 2    50   Input ~ 0
+Row3
+Text GLabel 4500 1650 2    50   Input ~ 0
+Row4
+Text GLabel 4500 3750 2    50   Input ~ 0
+Row5
+Text GLabel 4500 3850 2    50   Input ~ 0
+Row6
+Text GLabel 4500 3950 2    50   Input ~ 0
+Row7
+Text GLabel 4500 4050 2    50   Input ~ 0
+Row8
+Text GLabel 4500 2950 2    50   Input ~ 0
+Col8
+Text GLabel 4500 2850 2    50   Input ~ 0
+Col7
+Text GLabel 4500 3150 2    50   Input ~ 0
+Col6
+Text GLabel 4500 2750 2    50   Input ~ 0
+Col5
+Text GLabel 4500 3250 2    50   Input ~ 0
+Col4
+Text GLabel 4500 2650 2    50   Input ~ 0
+Col3
+Text GLabel 4500 1750 2    50   Input ~ 0
+Col2
+Text GLabel 4500 2550 2    50   Input ~ 0
+Col1
+Wire Wire Line
+	7900 2000 7900 1900
+Wire Wire Line
+	8500 2000 8500 1900
+Wire Wire Line
+	9100 2000 9100 1900
+Wire Wire Line
+	9700 1400 9700 1300
+Wire Wire Line
+	9100 1400 9100 1300
+Wire Wire Line
+	8500 1400 8500 1300
+Wire Wire Line
+	7900 1400 7900 1300
+Wire Wire Line
+	7300 1400 7300 1300
+Wire Wire Line
+	6700 1400 6700 1300
+Wire Wire Line
+	6100 1400 6100 1300
+Wire Wire Line
+	10700 2000 10800 2000
+Connection ~ 10800 2000
+Wire Wire Line
+	10800 2000 10800 2600
+Wire Wire Line
+	10300 1400 10300 1300
+Wire Wire Line
+	7700 2600 7800 2600
+Connection ~ 7800 2600
+Wire Wire Line
+	7800 2600 7800 3200
+Wire Wire Line
+	8300 2600 8400 2600
+Connection ~ 8400 2600
+Wire Wire Line
+	8400 2600 8400 3200
+Wire Wire Line
+	8900 2600 9000 2600
+Connection ~ 9000 2600
+Wire Wire Line
+	9000 2600 9000 3200
+Wire Wire Line
+	9500 2600 9600 2600
+Connection ~ 9600 2600
+Wire Wire Line
+	9600 2600 9600 3200
+Wire Wire Line
+	9700 3800 9700 3700
+Wire Wire Line
+	9100 3800 9100 3700
+Wire Wire Line
+	8500 3800 8500 3700
+Wire Wire Line
+	7900 3800 7900 3700
+Wire Wire Line
+	7300 3800 7300 3700
+Wire Wire Line
+	6700 3800 6700 3700
+Wire Wire Line
+	9100 5000 9100 4900
+Wire Wire Line
+	9500 5000 9600 5000
+Connection ~ 9600 5000
+Wire Wire Line
+	9600 5000 9600 5600
+Wire Wire Line
+	9500 5600 9600 5600
+Connection ~ 9600 5600
+Wire Wire Line
+	9600 5600 9600 5950
+Wire Wire Line
+	4400 1350 4500 1350
+Wire Wire Line
+	4500 1450 4400 1450
+Wire Wire Line
+	4400 1550 4500 1550
+Wire Wire Line
+	4500 1650 4400 1650
+Wire Wire Line
+	4400 1750 4500 1750
+Wire Wire Line
+	4400 2550 4500 2550
+Wire Wire Line
+	4500 2650 4400 2650
+Wire Wire Line
+	4400 2750 4500 2750
+Wire Wire Line
+	4500 2850 4400 2850
+Wire Wire Line
+	4400 2950 4500 2950
+Wire Wire Line
+	4400 3150 4500 3150
+Wire Wire Line
+	4500 3250 4400 3250
+Wire Wire Line
+	4400 4050 4500 4050
+Wire Wire Line
+	4500 3950 4400 3950
+Wire Wire Line
+	4400 3850 4500 3850
+Wire Wire Line
+	4500 3750 4400 3750
+NoConn ~ 4400 2350
+NoConn ~ 4400 2250
+NoConn ~ 4400 3050
+NoConn ~ 4400 3450
+NoConn ~ 4400 3550
+NoConn ~ 4400 4150
+NoConn ~ 4400 4250
+NoConn ~ 3200 1950
+NoConn ~ 4400 2050
+NoConn ~ 4400 1950
+NoConn ~ 4400 1850
+NoConn ~ 1600 2750
+NoConn ~ 1600 2850
+NoConn ~ 1600 3050
+NoConn ~ 1600 3150
+NoConn ~ 1600 3350
+NoConn ~ 1600 3450
+NoConn ~ 1600 3650
+NoConn ~ 1600 3750
+NoConn ~ 1600 3950
+NoConn ~ 1600 4050
+NoConn ~ 1600 2050
+NoConn ~ 1600 1950
+Wire Wire Line
+	3800 4650 3800 4750
+Wire Wire Line
+	3700 4650 3700 4750
+Wire Wire Line
+	3700 4750 3800 4750
+Connection ~ 3800 4750
+Wire Wire Line
+	3800 4750 3800 4800
+Wire Wire Line
+	3900 1050 3900 950 
+Wire Wire Line
+	3900 950  3800 950 
+Connection ~ 3700 950 
+Wire Wire Line
+	3800 1050 3800 950 
+Connection ~ 3800 950 
+Wire Wire Line
+	3800 950  3700 950 
+$Comp
+L Switch:SW_Push SW_RESET1
+U 1 1 5DAB1037
+P 1750 5150
+F 0 "SW_RESET1" H 1750 5435 50  0001 C CNN
+F 1 "RESET" H 1750 5343 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_EVPBF" H 1750 5350 50  0001 C CNN
+F 3 "" H 1750 5350 50  0001 C CNN
+	1    1750 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5DAB1674
+P 2000 5150
+F 0 "#PWR0101" H 2000 4900 50  0001 C CNN
+F 1 "GND" V 2005 5022 50  0000 R CNN
+F 2 "" H 2000 5150 50  0001 C CNN
+F 3 "" H 2000 5150 50  0001 C CNN
+	1    2000 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VBUS #PWR0102
+U 1 1 5DAB182F
+P 1450 4800
+F 0 "#PWR0102" H 1450 4650 50  0001 C CNN
+F 1 "VBUS" H 1465 4973 50  0000 C CNN
+F 2 "" H 1450 4800 50  0001 C CNN
+F 3 "" H 1450 4800 50  0001 C CNN
+	1    1450 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5DAB1C7A
+P 1450 4950
+F 0 "R3" V 1550 4950 50  0000 C CNN
+F 1 "22ohm" V 1650 4950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1450 4950 50  0001 C CNN
+F 3 "~" H 1450 4950 50  0001 C CNN
+	1    1450 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 5150 2000 5150
+Wire Wire Line
+	1450 5150 1550 5150
+Wire Wire Line
+	1450 5150 1450 5050
+Wire Wire Line
+	1450 4850 1450 4800
+Text GLabel 1350 5150 0    50   Input ~ 0
+RESET
+Wire Wire Line
+	1350 5150 1450 5150
+Connection ~ 1450 5150
+Wire Wire Line
+	900  4350 1000 4350
+Wire Wire Line
+	1000 4350 1100 4350
+Connection ~ 1000 4350
+Wire Wire Line
+	800  4350 900  4350
+Wire Wire Line
+	700  4350 800  4350
+Connection ~ 800  4350
+$Comp
+L Connector:USB_C_Receptacle J1
+U 1 1 5BFF0852
+P 1000 2750
+F 0 "J1" H 1105 4317 50  0000 C CNN
+F 1 "USB_C_Receptacle" H 1105 4226 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A" H 1150 2750 50  0001 C CNN
+F 3 "http://www.usb.org/developers/docs/usb_31_033017.zip" H 1150 2750 50  0001 C CNN
+	1    1000 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1350 1700 1450
+Wire Wire Line
+	1700 1450 1600 1450
+Wire Wire Line
+	1700 1450 1700 1550
+Wire Wire Line
+	1700 1550 1600 1550
+Connection ~ 1700 1450
+Wire Wire Line
+	1700 1550 1700 1650
+Wire Wire Line
+	1700 1650 1600 1650
+Connection ~ 1700 1550
+Wire Wire Line
+	1700 1650 1700 1750
+Wire Wire Line
+	1700 1750 1600 1750
+Connection ~ 1700 1650
+$Comp
+L power:VCC #PWR0103
+U 1 1 5E1DED0E
+P 1900 1350
+F 0 "#PWR0103" H 1900 1200 50  0001 C CNN
+F 1 "VCC" H 1917 1523 50  0000 C CNN
+F 2 "" H 1900 1350 50  0001 C CNN
+F 3 "" H 1900 1350 50  0001 C CNN
+	1    1900 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1450 1900 1450
+Wire Wire Line
+	1900 1450 1900 1350
 $EndSCHEMATC
