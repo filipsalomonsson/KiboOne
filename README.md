@@ -10,7 +10,7 @@ Some design guidelines:
 * Alps switches are nice
 * AEK-era Apple keycaps are nice
 * Stabilizers are the devil
-* The width of standard ANSI shift keys is ridicilous
+* The width of standard ANSI shift keys is ridiculous
 * The width of a standard spacebar is ridiculous
 * Actually, no key _really_ deserves to be wider than 2u
 * The thumb is underused for modifier keys
